@@ -86,3 +86,75 @@ p {
     left: 30px;
 
 }
+
+.section h2 {
+    font-size: 2.3em;
+    font-weight: 200;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+}
+
+.section,
+.contact-desc {
+    text-align: center;
+
+}
+
+.contact {
+    background-color: #9bccbb;
+    padding: 50px;
+    height: 600px;
+}
+
+.contact h3 {
+    font-size: 1.3em;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+
+form label {
+    display: block;
+    padding-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #5a5661;
+}
+
+form input,
+form textarea {
+    padding-right: 100px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: unset;
+    margin-bottom: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+form button {
+    background-color: #9bccbb;
+    padding: 15px 20px 15px 20px;
+    float: right;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+footer a {
+    color: blue;
+}
