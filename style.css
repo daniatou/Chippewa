@@ -7,7 +7,6 @@
 body {
     background-color: #F5F4F0;
     font-family: 'Karla', sans-serif;
-    font-family: ;
 }
 
 header {
@@ -22,22 +21,32 @@ header h1 {
     margin-bottom: 50px;
 }
 
-.img-desc img {
+
+.img-desc-bcg img {
     width: 400px;
 }
 
-.container {
+.container,
+.container2 {
     width: 80%;
     margin: 60px auto 30px auto;
 }
 
 .desc {
     width: 600px;
-    padding: 50px;
+    padding-left: 50px;
     font-weight: 300px;
 }
 
-.desc h2 {
+.desc2 {
+    width: 600px;
+    padding-right: 50px;
+    font-weight: 300px;
+
+}
+
+.desc h2,
+.desc2 h2 {
     margin-bottom: 20px;
 }
 
@@ -48,9 +57,32 @@ p {
 }
 
 
-.img-desc,
+.img-desc-bcg,
 .desc {
     display: inline-block;
     vertical-align: top;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.img-desc-bcg,
+.desc2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.img-desc-bcg {
+    position: relative;
+}
+
+.img-desc {
+    width: 400px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
 
 }
